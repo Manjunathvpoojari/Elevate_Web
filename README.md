@@ -133,3 +133,38 @@ The setup is the same as Task 1. Simply open the `index.html` file for Task 2 in
 ## Task 5
 ManjunathVPoojari.github.io shows my github work  (URL:- https://manjunathvpoojari.github.io/Portfolio/)
 
+
+# Task 6: Dynamic Project Showcase Integration
+
+## 📌 Project Overview
+The objective of this task is to upgrade the portfolio (from **Task 5**) by replacing static project data with a **dynamic, API-driven content feed**.  
+The portfolio’s project section will now fetch data (project titles, descriptions, and technologies) from the **Node.js server** created in **Task 3**.
+
+---
+
+## 🔑 Key Implementation Steps
+
+### 1. CORS Configuration
+- Update the **Node.js API** (Task 3) to enable **Cross-Origin Resource Sharing (CORS)**.  
+- This allows the front-end portfolio to make requests to the back-end server.
+
+### 2. Front-End Fetching
+- Use the **`fetch()` API in JavaScript** to send a `GET` request to the `/projects` endpoint.  
+- Receive project data in **JSON format**.
+
+### 3. DOM Manipulation
+- Dynamically parse the JSON response.  
+- Inject project cards into the **portfolio HTML structure** using JavaScript instead of static HTML.
+
+---
+
+## ⚙️ Technologies Used
+- **Vanilla JavaScript** (`fetch API`) → Asynchronous calls to back-end.  
+- **Node.js + Express.js** → Back-end server.  
+- **CORS Middleware** (`cors` package) → Enables cross-origin requests.  
+- **JSON Data Handling** → Parsing structured arrays of project data.
+
+---
+
+
+
