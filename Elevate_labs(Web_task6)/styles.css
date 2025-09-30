@@ -1,0 +1,49 @@
+/* 1. Global Reset and Font Import */
+/* Load the 'Inter' font from Google Fonts for high-quality, modern typography */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+* {
+    /* Use border-box for predictable layout calculation */
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    /* Apply smooth transitions globally for hover and focus states */
+    transition: all 0.2s ease-in-out;
+}
+
+/* 2. Body and Layout Styling */
+body {
+    font-family: 'Inter', sans-serif;
+    /* Use the light gray background */
+    background-color: #f3f4f6; 
+    /* Center the content vertically and horizontally */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 2rem;
+    line-height: 1.6; /* Improved line spacing for readability */
+}
+
+/* 3. Accessibility and Interaction Enhancement (Custom Focus Rings) */
+/* Enhance focus state for all interactive elements for better accessibility */
+input:focus,
+textarea:focus,
+button:focus {
+    outline: none; /* Remove default browser outline */
+    /* Custom blue glow for focus ring (matches Tailwind's blue) */
+    box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.5), 0 1px 2px rgba(0, 0, 0, 0.05); 
+    border-color: #3b82f6; /* Strong border color on focus */
+}
+
+/* 4. Submission Button Hover Effect */
+button[type="submit"]:hover {
+    transform: translateY(-1px); /* Subtle lift on hover */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* 5. Custom Error Text Styling */
+/* Ensure error text is highly visible */
+.text-red-500 {
+    font-weight: 600; /* Make the error message bolder */
+}
