@@ -158,3 +158,49 @@ The objective of this task was to demonstrate proficiency in client-side asynchr
 - `index.html`: Webpage structure with data container and reload button.
 - `script.js`: JavaScript file containing the fetch logic, JSON parsing, error handling, and DOM rendering functions.
 - `style.css`: CSS file for styling the output data, cards, and messages.
+
+
+---
+
+## ➡️ Task 8: Simple Blog Layout Using Bootstrap 5
+
+### Project Overview
+The objective was to use **Bootstrap 5 (via CDN)** to create a responsive blog page. This task focused on learning Bootstrap for **rapid UI development** and **mobile-first responsiveness**.
+
+### Key Implementation Steps
+1. **Bootstrap Setup**  
+   - Included Bootstrap CSS & JS CDN links in the `<head>` and `<body>`.  
+
+2. **Navbar**  
+   - Implemented a responsive navbar with brand name and navigation links.  
+
+3. **Main Content Container**  
+   - Used Bootstrap’s `.container` and `.row` classes to structure content.  
+
+4. **Blog Post Cards**  
+   - Created multiple cards, each containing:
+     - Blog image  
+     - Post title  
+     - Short description  
+     - “Read More” button  
+
+5. **Responsive Layout**  
+   - Arranged blog cards using Bootstrap’s **grid system** (`col-md-4`, `col-sm-6` etc.) for automatic resizing across devices.  
+
+6. **Footer**  
+   - Added a footer section with social media icons and Bootstrap utility classes.  
+
+7. **Styling & Utilities**  
+   - Used Bootstrap utility classes (`p-5`, `bg-light`, `text-center`, `mb-4`) for spacing, background, and alignment.  
+
+### Technologies Used
+- **HTML5**: Page structure.  
+- **Bootstrap 5 (CDN)**: Components, utilities, and responsive design.  
+  - Components: **Navbar, Cards, Grid System**  
+  - Utility Classes: **p-5, bg-light, text-center, mb-3**  
+
+### Deliverables
+- `index.html`: A single HTML file containing the full blog layout with all Bootstrap 5 markup and CDN references.  
+
+---
+
